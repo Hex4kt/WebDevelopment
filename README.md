@@ -1,2 +1,1 @@
-# WebDevelopment
-Learning Webdevelopment
+This Repository is an example repository to learn html, css, javascript.

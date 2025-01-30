@@ -1,0 +1,59 @@
+
+body {
+    color: rgb(175, 166, 36);
+    background-color: rgb(42, 47, 56);
+    text-align: center;
+}
+
+h1 {
+    
+}
+
+h2 {
+    color: rgb(242, 245, 61);
+    text-shadow: 4px 4px 5px black;
+}
+
+h3 {
+    color: rgb(34, 216, 223);
+    font-size: x-large;
+    font-style: oblique;
+}
+
+h4 {
+
+}
+
+p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: left;
+}
+
+a {
+    color: rgb(175, 166, 36);
+}
+
+table {
+    margin: auto;
+    border-style: outset;
+}
+
+.plaintext {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: left;
+}
+
+.container {
+    background: linear-gradient(to right, rgb(94, 65, 65),rgb(35, 88, 90));
+    box-shadow: 4px 4px 5px black;
+}
+
+
+#contactField {
+    text-align: center;
+}
+
+#mercury {
+    color: rgb(242, 245, 61);
+    text-shadow: 4px 4px 5px black;
+}
