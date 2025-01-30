@@ -38,6 +38,10 @@ table {
     /* border-style: outset; */
 }
 
+img {
+    opacity: 0.4;
+}
+
 .plaintext {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: left;
