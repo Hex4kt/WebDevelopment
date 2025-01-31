@@ -1,8 +1,14 @@
 
 body {
     color: rgb(175, 166, 36);
-    background-color: rgb(42, 47, 56);
+    /* background-color: rgb(42, 47, 56); */
     text-align: center;
+
+    background-image: url(pictures/Sternenhimmel.jpg);
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 
 h1 {
@@ -29,6 +35,11 @@ p {
     text-align: left;
 }
 
+div {
+    text-align: center;
+    margin: auto;
+}
+
 a {
     color: rgb(175, 166, 36);
 }
@@ -39,7 +50,16 @@ table {
 }
 
 img {
-    opacity: 0.4;
+    opacity: 0.7;
+}
+
+iframe {
+
+    width: 90%; 
+    height: 90%; 
+    max-width: 560px; 
+    max-height: 315px; 
+    height: 550px;
 }
 
 .plaintext {
@@ -52,6 +72,12 @@ img {
     box-shadow: 4px 4px 10px black;
 }
 
+.borderImg {
+    text-align: center;
+    width: 90%;
+    max-width: 790px;
+    border: 6px inset rgb(116, 139, 134);
+}
 
 #contactField {
     text-align: center;
