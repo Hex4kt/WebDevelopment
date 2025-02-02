@@ -1,6 +1,6 @@
 
 body {
-    color: rgb(175, 166, 36);
+    color: rgb(247, 255, 177);
     /* background-color: rgb(42, 47, 56); */
     text-align: center;
 
@@ -8,11 +8,20 @@ body {
     background-blend-mode: overlay;
     background-repeat: no-repeat;
     background-size: cover;
+    font-size: larger;
+    font-family: Macondo, serif;
+}
 
+div h1 {
+    color: white;
+}
+
+html h1 {
+    color: yellow;
 }
 
 h1 {
-    
+    color: red;
 }
 
 h2 {
@@ -24,14 +33,12 @@ h3 {
     color: rgb(34, 216, 223);
     font-size: x-large;
     font-style: oblique;
+    font-family: "Lexend Giga", sans-serif, serif;
 }
 
-h4 {
-
-}
 
 p {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: Macondo, serif;
     text-align: left;
 }
 
@@ -49,6 +56,15 @@ table {
     /* border-style: outset; */
 }
 
+ul li {
+    text-align: left;
+    color: aquamarine;
+}
+
+ul > li {
+    color: burlywood;
+}
+
 img {
     opacity: 0.7;
 }
@@ -62,13 +78,8 @@ iframe {
     height: 550px;
 }
 
-.plaintext {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    text-align: left;
-}
-
 .container {
-    background: linear-gradient(to right, rgb(94, 65, 65),rgb(35, 88, 90));
+    background: linear-gradient(to right, rgb(98, 113, 122),rgba(173, 208, 209, 0.541));
     box-shadow: 4px 4px 10px black;
 }
 
