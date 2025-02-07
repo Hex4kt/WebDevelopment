@@ -1,1 +1,0 @@
-This Repository is an example repository to learn html, css, javascript.
