@@ -13,5 +13,5 @@ This repository contains all of the source code used in the course called Full s
 
 # Outputs :
 
-* [Page-1](https://https://hex4kt.github.io/WebDevelopment/WebPage1/index.html)
-* [Page-2](https://https://hex4kt.github.io/WebDevelopment/WebPage2/index.html)
+* [Page-1](https://hex4kt.github.io/WebDevelopment/WebPage1/index.html)
+* [Page-2](https://hex4kt.github.io/WebDevelopment/WebPage2/index.html)
