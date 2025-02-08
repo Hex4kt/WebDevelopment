@@ -2,8 +2,6 @@
 
 This repository contains all of the source code used in the course called Full stack web development Tutorial Course.
 
-![Course Completion certificate](#)
-
 # Assignments :
 
 * Page-1 - Experimentation 
