@@ -1,4 +1,4 @@
-# Course-HTML-CSS-and-Javascript-for-Web-Developers
+# HTML CSS and Javascript for Web Developers
 
 This repository contains all of the source code used in the course called Full stack web development Tutorial Course.
 
