@@ -4,8 +4,8 @@ This repository contains all of the source code used in the course called Full s
 
 # Assignments :
 
-* Page-1 - Experimentation 
-* Page-2 - NavBar
+* Page-1 - First Experimentations with html + css
+* Page-2 - Deep Dive into css and use of bit javascript
 
 # Webpages :
 
