@@ -47,3 +47,41 @@ ul.topnav li a:hover {
     background-color: #0080ff;
     color: #fff;
 }
+
+ul.topnav li.dropdownIcon {
+    display: none;
+    list-style: none;
+    float: right;
+}
+
+/*################### Nav Bar ###################*/
+@media screen and (max-width: 680px) {
+    ul.topnav li:not(:nth-child(1)) {
+        display: none;
+    }
+
+    ul.topnav li.dropdownIcon {
+        display: block;
+        float: right;
+    }
+
+    ul.topnav.mobile li.dropdownIcon {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+    ul.topnav.mobile {
+        position: relative;
+    }
+
+    ul.topnav.mobile li {
+        display: inline;
+        float: none;
+    }
+
+    ul.topnav.mobile li a {
+         display: block;
+         text-align: left;
+    }
+}
