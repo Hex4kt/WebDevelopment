@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
     <nav>
         <ul class="topnav" id="navigationMenu">
@@ -19,17 +21,40 @@
         </ul>
     </nav>
 
-<script>
-    function dropdownMenu() {
-        var x = document.getElementById("navigationMenu")
-        if (x.className == "topnav") {
-            x.className += " mobile";
+    <div class="container" id="section-1-gradient">
+        <div class="row">
+            <div class="col-6">
+                <div>
+                    <h1 class="large">Mercury, Seapie and Hex Coding Class</h1>
+                </div>
+            </div>
+            <div class="col-6">
+                <form action="">
+                    <div>
+                        <h2>Username</h2>
+                        <input class="inputbox" type="text">
+                        <h2>Password</h2>
+                        <input type="text">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- SCRIPTS -->
+
+    <script>
+        function dropdownMenu() {
+            var x = document.getElementById("navigationMenu")
+            if (x.className == "topnav") {
+                x.className += " mobile";
+            }
+            else {
+                x.className = "topnav";
+            }
         }
-        else {
-            x.className = "topnav";
-        }
-    }
-</script>
+    </script>
 
 </body>
+
 </html>
