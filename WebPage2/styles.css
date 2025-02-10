@@ -104,13 +104,20 @@ h1.large {
     padding-left: 14px;
 }
 
-h2.middle {
+form h2 {
     margin-bottom: 0;
 }
 
 input[type="text"] {
     font-size: 20px;
     width: 400px;
+    min-width: 100px;
+    padding: 5px;
+}
+
+.player {
+    text-align: center;
+    margin: 100px;
 }
 
 /*################### Mobile ###################*/
