@@ -101,7 +101,7 @@ ul.topnav li.dropdownIcon {
 h1.large {
     color: #fff;
     font-size: 56px;
-    margin: 0;
+    padding-left: 14px;
 }
 
 h2.middle {
