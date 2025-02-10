@@ -104,6 +104,15 @@ h1.large {
     margin: 0;
 }
 
+h2.middle {
+    margin-bottom: 0;
+}
+
+input[type="text"] {
+    font-size: 20px;
+    width: 400px;
+}
+
 /*################### Mobile ###################*/
 @media screen and (max-width: 680px) {
     ul.topnav li:not(:nth-child(1)) {
