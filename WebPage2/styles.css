@@ -66,11 +66,16 @@ p {
     line-height: 1.2;
 }
 
+article p {
+    font-size: 35px;
+    padding: 20px;
+}
+
 .container {
     width: 100%;
     margin: auto;
-    padding-top: 4%;
-    padding-bottom: 4%;
+    padding-top: 2%;
+    padding-bottom: 2%;
 }
 
 .row {
@@ -99,6 +104,10 @@ p {
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;}
 
+* {
+    box-sizing: border-box;
+}
+
 /*################### Custom Styles ###################*/
 
 #section-1-gradient {
@@ -117,6 +126,23 @@ div.box {
     box-shadow: 0 0 0 1px #666, 0 2px 3px 0 #666;
     padding: 6px;
     margin: 10px;
+    border-radius: 7px;
+}
+
+button {
+    font-size: 32px;
+    font-weight: 700;
+    color: #fff;
+    background-color: #0080ff;
+    padding: 15px 60px;
+    display: block;
+    text-align: center;
+    margin: 5px;
+    border-radius: 7px;
+}
+
+button.learnMore {
+    margin: 20px auto;
 }
 
 div.icon img {
@@ -129,7 +155,7 @@ h1.large {
 }
 
 h1.section2Header {
-    font-size: 65px;
+    font-size: 50px;
     text-align: center;
 }
 
@@ -185,7 +211,7 @@ input[type="text"] {
          text-align: left;
     }
 
-    .col-6 {
+    .col-6, .col-4 {
         width: 100%;
         margin: 0;
     }
