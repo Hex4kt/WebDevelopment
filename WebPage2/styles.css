@@ -129,6 +129,21 @@ div.box {
     border-radius: 7px;
 }
 
+div.devIcon {
+    margin: auto;
+}
+
+div.devIcon img {
+    width: 50%;
+}
+
+.devIcon img {
+    display: block;
+    margin: auto;
+    box-shadow: -10px -10px 20px 10px #666, 
+                10px 10px 20px 10px #666;
+}
+
 button {
     font-size: 32px;
     font-weight: 700;
@@ -180,6 +195,28 @@ input[type="text"] {
     margin: 0;
 }
 
+footer.footsy {
+    background-color: #666;
+    color: #eee;
+    padding-left: 10%;
+}
+
+footer.footsy h1 {
+    font-size: 35px;
+}
+
+footer.footsy ul {
+    list-style: none;
+    text-align: left;
+    padding-left: 0;
+}
+
+footer.footsy ul li {
+    color: #fff;
+    font-size: 22px;
+    line-height: 1.5;
+}
+
 /*################### Mobile ###################*/
 @media screen and (max-width: 680px) {
     ul.topnav li:not(:nth-child(1)) {
@@ -211,9 +248,17 @@ input[type="text"] {
          text-align: left;
     }
 
-    .col-6, .col-4 {
+    .col-6, 
+    .col-4,
+    .col-5,
+    .col-7 {
         width: 100%;
         margin: 0;
+    }
+
+    div.mobileStack {
+        width: 50%;
+        display: block;
     }
 
     div.leftside-col, .div.rightside-col {
