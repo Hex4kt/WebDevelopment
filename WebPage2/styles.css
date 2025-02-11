@@ -2,12 +2,13 @@
 
 nav, header, footer {
     display: block;
+    color: #666;
 }
 
 body {
     line-height: 1;
     margin: 0;
-    color: #fff;
+    /* color: #fff; */
 }
 
 /*################### Nav Bar ###################*/
@@ -55,6 +56,16 @@ ul.topnav li.dropdownIcon {
     float: right;
 }
 
+label {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+p {
+    font-size: 28px;
+    line-height: 1.2;
+}
+
 .container {
     width: 100%;
     margin: auto;
@@ -96,12 +107,34 @@ ul.topnav li.dropdownIcon {
     background: -o-linear-gradient(#0080ff, #65A5FF); /* for Opera 11.1 to 12 */
     background: -moz-linear-gradient(#0080ff, #65A5FF); /* for Firefox 3.6 to 15 */
     background: linear-gradient(#0080ff, #65A5FF); /* Standard */
+
+    color: #fff;
+}
+
+div.box {
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0 0 0 1px #666, 0 2px 3px 0 #666;
+    padding: 6px;
+    margin: 10px;
+}
+
+div.icon img {
+    height: 60px;
 }
 
 h1.large {
     color: #fff;
     font-size: 56px;
-    padding-left: 14px;
+}
+
+h1.section2Header {
+    font-size: 65px;
+    text-align: center;
+}
+
+div.leftside-col {
+    margin-left: 30%;
 }
 
 form h2 {
@@ -111,13 +144,14 @@ form h2 {
 input[type="text"] {
     font-size: 20px;
     width: 400px;
-    min-width: 100px;
+    min-width: 50px;
     padding: 5px;
+    border-radius: 7px;
 }
 
-.player {
+.div.rightside-col {
     text-align: center;
-    margin: 100px;
+    margin: 0;
 }
 
 /*################### Mobile ###################*/
@@ -149,5 +183,25 @@ input[type="text"] {
     ul.topnav.mobile li a {
          display: block;
          text-align: left;
+    }
+
+    .col-6 {
+        width: 100%;
+        margin: 0;
+    }
+
+    div.leftside-col, .div.rightside-col {
+        margin: 14px;
+    }
+
+    input[type="text"] {
+        width: 350px;
+    }
+
+    .videoContainer iframe {
+        position: relative;
+        width: 95%;
+        margin: 14px;
+        overflow: hidden;
     }
 }
