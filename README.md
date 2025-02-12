@@ -1,8 +1,8 @@
-# HTML CSS and Javascript for Web Developers
+# SeaPie, Mercury and Hex doing a HTML CSS and Javascript course
 
 This repository contains all of the source code used in the course called Full stack web development Tutorial Course.
 
-# Assignments :
+# My Projects :
 
 * Page-1 - First Experimentations with html + css
 * Page-2 - Deep Dive into css and use of bit javascript
